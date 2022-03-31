@@ -1,0 +1,29 @@
+{
+  "family": [
+    {
+      "genre": "dady",
+      "namae": "isono fu",
+      "age": 47
+
+    },
+    {
+      "genre": "wife",
+      "namae": "isono ne",
+      "age": 43
+
+    },
+    {
+      "genre": "child",
+      "namae": "isono ka",
+      "age": 10
+
+    },
+    {
+      "genre": "child",
+      "namae": "isono wa",
+      "age": 8
+
+    }
+
+  ]
+}

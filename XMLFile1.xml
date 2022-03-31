@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<test>
+	<action>
+		<task>aiueo</task>
+		<exefile>c:\test\faiu.bat</exefile>
+		<submitdate>2022-04-01-09:00:00</submitdate>
+	</action>
+	<action>
+		<task>aiueo2</task>
+		<exefile>c:\test\ho.bat</exefile>
+		<submitdate>2022-04-01-18:00:00</submitdate>
+	</action>
+	<action>
+		<task>aiueo2</task>
+		<exefile>c:\test\ge.bat</exefile>
+		<submitdate>2022-04-01-23:59:59</submitdate>
+	</action>	
+</test>
+
