@@ -1,0 +1,18 @@
+- server1: webserver
+  hostip: 192.168.40.21
+  taskname: webchk
+  taskpfl:
+  - startdate: 2022-04-01
+    starttime: 09:00:00
+    action: daily
+    submitcmd: c:\test\bin\chkstart1.exe
+
+- server2: dbserver
+  hostip: 192.168.40.31
+  taskname: dbchk
+  taskpfl:
+  - startdate: 2022-04-01
+    starttime: 10:00:00
+    action: daily
+    submitcmd: c:\test\bin\chkstart2.exe
+
