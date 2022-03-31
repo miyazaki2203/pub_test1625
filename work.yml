@@ -16,3 +16,15 @@
     action: daily
     submitcmd: c:\test\bin\chkstart2.exe
 
+- maillist:
+  - a@a.com
+  - b@b.com
+  - c@c.com
+
+- addresslist:
+   - aichi
+   - hokkaidou
+   - okinawa
+
+
+

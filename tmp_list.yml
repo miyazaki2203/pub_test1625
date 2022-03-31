@@ -1,0 +1,42 @@
+date: 2022-04-01
+bool1: yes    #yes=ture
+bool2: ture
+bool3: no	#no=false
+bool4: false
+null: null
+decimal1: 9999
+str1: 全角文字もOK
+
+### コメントはどこの位置でも設置可能
+# 20220331
+
+
+
+---
+#複数のYMLを読み込む
+#その場合rubyではYAML.load_stream() といった関数を使用して読み込むことができる
+date10: 2022-04-01
+bool10: yes    #yes=ture
+bool20: ture
+bool30: no	#no=false
+bool40: false
+null10: null
+decimal10: 9999
+str10: 全角文字もOK
+
+
+...
+#これ以降の設定内容は読み込まれない　ENDを意味する
+#もし読み込みエラーなど出た際に調査するために一部だけ読み込ませるなど
+#エラー調査する際にも使える
+date: 2022-04-01
+bool1: yes    #yes=ture
+bool2: ture
+bool3: no	#no=false
+bool4: false
+null: null
+decimal1: 9999
+str1: 全角文字もOK
+
+
+
